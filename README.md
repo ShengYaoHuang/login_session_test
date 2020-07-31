@@ -5,6 +5,9 @@
 - 輸入正確的Email及密碼可顯示歡迎頁面
 - 輸入錯誤的Email及密碼會顯示輸入錯誤!
 
+# 預覽圖片
+![sparkles](accountlogin.png)
+
 # 環境建置與需求
 - Node.js: v10.15.0
 - Express: v4.17.1
