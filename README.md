@@ -5,6 +5,16 @@
 - 輸入正確的Email及密碼可顯示歡迎頁面
 - 輸入錯誤的Email及密碼會顯示輸入錯誤!
 
+# 測試資料
+| name    |        email        |         password |
+| :------ | :-----------------: | ---------------: |
+| Tony    |   tony@stark.com    |       iamironman |
+| Steve   | captain@hotmail.com | icandothisallday |
+| Peter   |  peter@parker.com   |         enajyram |
+| Natasha |  natasha@gamil.com  |       *parol#@$! |
+| Nick    |   nick@shield.com   |         password |
+
+
 # 預覽圖片
 ![sparkles](accountlogin.png)
 
