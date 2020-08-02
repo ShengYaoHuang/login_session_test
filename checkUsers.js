@@ -1,4 +1,4 @@
-function checkUsers(user) {
+function checkUsers(userData) {
   const users = [
     {
       firstName: 'Tony',
@@ -24,16 +24,25 @@ function checkUsers(user) {
       firstName: 'Nick',
       email: 'nick@shield.com',
       password: 'password'
+    },
+    {
+      firstName: 'AaAa',
+      email: 'aaaa@aaaa.com',
+      password: 'aaaa'
     }
   ]
+  const checkuser = users.find(user => user.email === userData.email && user.password === userData.password)
+  if (checkuser) {
+    return `${checkuser.firstName}`
+  } return false
 
-  for (let i = 0; i < users.length; i++) {
-    if (user.email === users[i].email && user.password === users[i].password) {
-      return `${users[i].firstName}`
-    } else {
-      return false
-    }
-  }
+  // for (let i = 0; i < users.length; i++) {
+  //   if (user.email === users[i].email && user.password === users[i].password) {
+  //     return `${users[i].firstName}`
+  //   } else {
+  //     return false
+  //   }
+  // }
 }
 
 module.exports = checkUsers
