@@ -28,7 +28,7 @@
 
 # 安裝與執行步驟
 1. 下載專案
-> git clone https://github.com/ShengYaoHuang/account_login.git
+> git clone https://github.com/ShengYaoHuang/login_session_test.git
 
 2. 進入專案資料夾
 > cd account_login
